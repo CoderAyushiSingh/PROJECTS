@@ -1,43 +1,27 @@
-# Data Science Project - [Your Project Name]
+# Data Science Project - [Diabetes Prediction Project]
 
-## 📌 Project Overview
-This project focuses on building a machine learning model to analyze data, perform preprocessing, and generate accurate predictions. It includes data cleaning, feature engineering, model training, and evaluation.
+OVERVIEW :- 
+This project aims to predict whether a patient has diabetes based on medical features such as glucose level, BMI, and age.
 
-## 🧠 Problem Statement
-The goal of this project is to understand the dataset and build a predictive model that can provide meaningful insights based on input features.
+STEPS PERFORMED:- 
 
-## 📊 Dataset
-- Source: [Mention if Kaggle / custom / etc.]
-- Shape: [rows × columns]
-- Target Variable: [what you predicted]
+ - Data cleaning and handling missing values
+ - Exploratory Data Analysis (EDA)
+ - Feature scaling using StandardScaler
+ - Model training using Logistic Regression and Random Forest
+ - Model evaluation using accuracy, precision, recall, and confusion matrix
 
-## ⚙️ Workflow
-1. Data Loading and Exploration  
-2. Data Cleaning (handling missing values, duplicates)  
-3. Feature Engineering  
-4. Train-Test Split  
-5. Feature Scaling  
-6. Model Building  
-7. Model Evaluation (Accuracy, Precision, Recall, Confusion Matrix)  
-8. Model Improvement and Tuning  
+KEY IMPROVEMENT:-
 
-## 🤖 Models Used
-- Logistic Regression / Random Forest 
+- Improved recall for diabetic cases from 0.62 to 0.84 using class balancing and hyperparameter tuning
 
-## 📈 Results
-- Accuracy: XX%
-- Precision: XX%
-- Recall: XX%
+FINAL MODEL:-
 
-## 🛠️ Tools & Technologies
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib / Seaborn
-- Google Colab
+- Tuned Random Forest (best performance based on recall)
 
-## 🚀 Conclusion
-This project helped in understanding the complete machine learning pipeline from data preprocessing to model evaluation.
+WHY RECALL MATTERS:-
 
-## 👤 Author
-- Ayushi Singh
+- In healthcare, missing a positive case (diabetes) is more critical than false alarms
+
+ YOUR AUTHOR,
+ Ayushi Singh
